@@ -43,7 +43,7 @@ class Song
   
   def self.new_from_filename(filename)
     song = self.new 
-    song.name = song.split
+    song.name = name.split()
 
   def save
     self.class.all << self
