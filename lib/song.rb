@@ -48,6 +48,8 @@ class Song
     song
   end
   
+  def self.create_from_filename
+  
 
   def save
     self.class.all << self
